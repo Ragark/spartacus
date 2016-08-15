@@ -1,0 +1,244 @@
+focus = {
+		id = Office_of_Revolution
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GER_scw_intervention_republicans }
+		mutually_exclusive = { focus = GER_rhineland }
+		x = 14
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = .4
+		}
+		completion_reward = {
+			
+
+			if = {
+				limit = { has_government = communism }
+				FRA = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#POL = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				AUS = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				CZE = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = american_influence_drift_communism
+					}				
+				}
+				BEL = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#DEN = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				ENG = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#GRE = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#IRE = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				ITA = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				LUX = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#NOR = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#POR = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#ROM = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#SWE = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#TUR = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#YUG = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#ALB = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#BUL = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				HOL = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#SWI = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+				#HUN = {
+					if = {
+						limit = { has_government = communism }
+						add_ideas = german_influence_defence_communism
+					}
+					if = {
+						limit = { NOT = { has_government = communism } }
+						add_ideas = german_influence_drift_communism
+					}				
+				}
+							
+			}
+
+			
+			
+			add_political_power = 150
+		}
+	}

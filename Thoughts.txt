@@ -1,0 +1,96 @@
+german:
+	NF tree:
+		industrial:
+			start people's collectives/communes/combinations
+			expand PC/C/C
+			autobahn
+			public work programs	
+		military:
+			rote kampferfrontbund mobilization
+			union mobilization #civilwar only
+		
+		political:
+			NSDAP purge #purging of all NSDAP symbols and low-tier members
+			nuremburg trials event chain #execution of NSDAP leadership
+			help republican spain
+			invite spain to faction
+			regain internationalism focus
+			plebscite austria
+			make KDP power concrete
+				cozy with ussr = cheka
+			fight/ally/peace ussr
+			fight fascist italy
+				free ethiopia/pan-africa
+				free libya/arab republic
+			remilitarize rhineland
+			coup or invade france
+			invade switzerland
+			regain danzig
+			syndicalism internal national focus chain #If Comintern, Stalin may intervene...
+	events:
+		germany inspired by republican spain
+		invite Thalmann back #if Thalmann leaves due to 4thint
+			
+Other countries events:
+
+	All:
+
+	Specific:
+		us 
+			southerners for the CPUSA
+			ending of the great depression
+			minutemen divisions #Has much higher chance of happening if german puppet
+			french protection laws in louisiana	
+		ussr
+
+		france 
+			france react to coup or civil war
+		uk 
+			uk reaction to red france
+		italy 
+			italian reaction to plebscite
+				south trent demand plebscite			
+		japan 
+			
+		poland
+
+		minors
+			ethopian SR developing pan-africanism and socialism
+			libyan SR developing pan-arabism and socialism	
+	 
+
+
+
+Other countries NFs:
+ 	all:
+	
+	specific:
+		us 
+			minor changes to fit fight against germany
+			IWW mobilization #civil war or german puppet
+			ending of segregation
+		ussr 
+			diplomatic changes towards germany
+			trotskyist national focus chain
+		france 
+			changes towards anti-communism
+			reaction to pan-africa, pan-arab
+			nf tree if go communist
+		uk 
+			changes toward anti-communism
+			reaction to pan-africa, pan-arab
+			trade union mobilization #civil war or german puppet
+			royal family flees event chain
+			noblemen flee event chain
+			british "cultural revolution"
+		italy 
+			go own way or join allies/capitalist/anti-communist
+		japan 
+			alternatives to germany alliance
+			go north, fight soviets
+			go south, fight allies, conquer australia/NZ/raj/polynesia
+		poland 
+			extreme fear of communism changes
+			fascist, possible italy ally
+			susceptible to communism if soviets and germans ally
+	

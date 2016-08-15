@@ -1,0 +1,78 @@
+###########################
+# Austria Events
+###########################
+
+add_namespace = austria
+
+country_event = {
+	id = austria.1
+	title = austria.1.t
+	desc = austria.1.d
+	picture = GFX_report_event_worker_protests
+
+	trigger = {
+		GER = { has_government = communism }
+		NOT = { has_country_flag = austria.1_fired }
+		OR = {
+			tag = AUS
+		} 
+		has_government = communism
+	}
+
+	immediate = {
+		FROM = { set_country_flag = austria.1_fired }
+		save_event_target_as = austria_annexation
+	}
+	
+	option = { # Annexed by SOV
+		name = austria.1.a
+		ai_chance = {
+			factor = 60
+			modifier =  {
+				factor = 2
+				OR = {
+					tag = AUS
+				}
+			}
+			modifier = {
+				factor = 0.5
+				is_puppet = yes
+			}
+		}
+		GER = { country_event = { id = germany.4 days = 1 } }
+	}
+	option = { # Become Puppet state
+		name = austria.1.b
+		ai_chance = { factor = 35
+			modifier = {
+				factor = 2
+				tag = AUS
+			}
+		}
+		GER = { country_event = { id = germany.129 days = 1 } }
+	}
+	option = { # Stay as own communist state
+		name = austria.1.c
+		trigger = {
+			is_puppet = no
+		}
+		ai_chance = { factor = 5 }
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+}
+
+country_event = {
+	id = austria.2
+
+	hidden = yes
+	
+	is_triggered_only = yes
+
+	immediate = {
+		news_event = { id = news.69 }
+		news_event = { id = news.71 hours = 1 }
+	}
+}
