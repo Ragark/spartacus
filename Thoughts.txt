@@ -4,11 +4,12 @@ german:
 			start people's collectives/communes/combinations
 			expand PC/C/C
 			autobahn
-			public work programs	
+			public work programs
+			international industrial support
 		military:
 			rote kampferfrontbund mobilization
 			union mobilization #civilwar only
-		
+			expand navy to compete with UK/USA
 		political:
 			NSDAP purge #purging of all NSDAP symbols and low-tier members
 			nuremburg trials event chain #execution of NSDAP leadership
@@ -30,6 +31,9 @@ german:
 	events:
 		germany inspired by republican spain
 		invite Thalmann back #if Thalmann leaves due to 4thint
+		build memorial to rosa
+		nazi guerillas
+		
 			
 Other countries events:
 
@@ -40,24 +44,31 @@ Other countries events:
 			southerners for the CPUSA
 			ending of the great depression
 			minutemen divisions #Has much higher chance of happening if german puppet
-			french protection laws in louisiana	
+			french protection laws in louisiana
+			woody guthrie events	
 		ussr
 
 		france 
 			france react to coup or civil war
 		uk 
 			uk reaction to red france
+			crack down on trade unions
 		italy 
 			italian reaction to plebscite
-				south trent demand plebscite			
-		japan 
+			south trent demand plebscite			
+		japan
+			power struggle between army and navy
 			
 		poland
+			growth in fascism if surrounded by communist
 
 		minors
 			ethopian SR developing pan-africanism and socialism
-			libyan SR developing pan-arabism and socialism	
-	 
+			libyan SR developing pan-arabism and socialism
+			Iceland/greenland jumping to UK/USA/canada if denmark goes communist
+			south american rebel groups
+			splitting belgium		
+	 		
 
 
 
@@ -69,6 +80,7 @@ Other countries NFs:
 			minor changes to fit fight against germany
 			IWW mobilization #civil war or german puppet
 			ending of segregation
+			
 		ussr 
 			diplomatic changes towards germany
 			trotskyist national focus chain
@@ -76,6 +88,7 @@ Other countries NFs:
 			changes towards anti-communism
 			reaction to pan-africa, pan-arab
 			nf tree if go communist
+			propose france-german union if communist
 		uk 
 			changes toward anti-communism
 			reaction to pan-africa, pan-arab
@@ -85,9 +98,10 @@ Other countries NFs:
 			british "cultural revolution"
 		italy 
 			go own way or join allies/capitalist/anti-communist
+			stronger neo-roman empire tree
 		japan 
 			alternatives to germany alliance
-			go north, fight soviets
+			go north, fight soviets, ally allies
 			go south, fight allies, conquer australia/NZ/raj/polynesia
 		poland 
 			extreme fear of communism changes
