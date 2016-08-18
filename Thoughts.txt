@@ -38,7 +38,9 @@ german:
 Other countries events:
 
 	All:
-
+		Debuffs for countries at war with communist states
+			~30% communist population=general strikes (lowered number of factories/resources available)
+			~50% communist population=lowered national unity
 	Specific:
 		us 
 			southerners for the CPUSA
