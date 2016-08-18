@@ -16,6 +16,7 @@ german:
 			union mobilization #civilwar only
 			expand navy to compete with UK/USA
 			factory militias (requires autogestion)
+			haven for soviet advisors from purge
 		political:
 			country name choice: multiple options
 			NSDAP purge #purging of all NSDAP symbols and low-tier members
@@ -50,6 +51,7 @@ german:
 		build memorial to rosa and liebknecht
 		nazi guerillas
 		make Karl Kautsky honorary president #if SAPD 
+		luxembourg joins germany if communist or puppet.
 			
 Other countries events:
 
@@ -69,9 +71,11 @@ Other countries events:
 			missouri and great lakes workers' militias 
 			IWW rising #if germany has syndicalism focus
 		ussr
-
+			defections to germany
+			lend-lease if allied with usa
 		france 
 			france react to coup or civil war
+			communist defecting to germany
 		uk 
 			uk reaction to red france
 			crack down on trade unions
@@ -107,11 +111,15 @@ Other countries NFs:
 		ussr 
 			diplomatic changes towards germany
 			trotskyist national focus chain
+			unholy alliance with capitalist/allies
 		france 
 			changes towards anti-communism
 			reaction to pan-africa, pan-arab
 			nf tree if go communist
 			propose france-german union if communist
+			far-right reaction to communist germany
+			focuses on french-ish belgium, luxembourg, switzerland.
+			
 		uk 
 			changes toward anti-communism
 			reaction to pan-africa, pan-arab
@@ -119,9 +127,11 @@ Other countries NFs:
 			royal family flees event chain
 			noblemen flee event chain
 			british "cultural revolution"
+			bring portugal to allies if spain joins germany
 		italy 
 			go own way or join allies/capitalist/anti-communist
 			stronger neo-roman empire tree
+			france/middle east ambitions
 		japan 
 			alternatives to germany alliance
 			go north, fight soviets, ally allies
