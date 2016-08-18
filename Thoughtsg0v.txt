@@ -2,14 +2,20 @@ german:
 	NF tree:
 		industrial:
 			start people's collectives/communes/combinations
+			start agricultural cooperatives (alternative economic policy)
 			expand PC/C/C
 			autobahn
 			public work programs
-			international industrial support
+			industrial combination/rationalize production
+			cybernetic planning or traditional/Stalinist planning (increased IC vs dissent from bureaucrats)
+			autogestion in firms (increased IC and lower dissent but reduced manpower)
+			five Year Plans
+			international industrial support 
 		military:
 			rote kampferfrontbund mobilization
 			union mobilization #civilwar only
 			expand navy to compete with UK/USA
+			factory militias (requires autogestion)
 		political:
 			NSDAP purge #purging of all NSDAP symbols and low-tier members
 			nuremburg trials event chain #execution of NSDAP leadership
@@ -17,23 +23,32 @@ german:
 			invite spain to faction
 			regain internationalism focus
 			plebscite austria
-			make KDP power concrete
+			plebscite sudetenland 
+			make KDP/SAPD power concrete
 				cozy with ussr = cheka
 			fight/ally/peace ussr
 			fight fascist italy
 				free ethiopia/pan-africa
 				free libya/arab republic
 			remilitarize rhineland
+			pressure USSR over status of volga germans and baltic germans 
 			coup or invade france
+			coup poland
 			invade switzerland
 			regain danzig
 			syndicalism internal national focus chain #If Comintern, Stalin may intervene...
+			coup or invade denmark/norway/sweden (or fund civil wars?)
+			merge KPD, SAPD and SPD
+			one party state or multiparty elections choice
+			KDP or SAPD socialist government 
+			soviet/council federation, workers' parliament or factory council/union federation choice #FCF only if syndicalism focus
+			level of political freedoms
 	events:
 		germany inspired by republican spain
 		invite Thalmann back #if Thalmann leaves due to 4thint
-		build memorial to rosa
+		build memorial to rosa and liebknecht
 		nazi guerillas
-		
+		make Karl Kautsky honorary president #if SAPD 
 			
 Other countries events:
 
@@ -48,6 +63,10 @@ Other countries events:
 			minutemen divisions #Has much higher chance of happening if german puppet
 			french protection laws in louisiana
 			woody guthrie events	
+			CIO purge events 
+			CIO and IWW merge and become government #if puppeted by syndicalist germany
+			missouri and great lakes workers' militias 
+			IWW rising #if germany has syndicalism focus
 		ussr
 
 		france 
@@ -55,6 +74,7 @@ Other countries events:
 		uk 
 			uk reaction to red france
 			crack down on trade unions
+			orwell writes book condemning UK and US as totalitarian
 		italy 
 			italian reaction to plebscite
 			south trent demand plebscite			
