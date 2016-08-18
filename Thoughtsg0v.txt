@@ -17,6 +17,7 @@ german:
 			expand navy to compete with UK/USA
 			factory militias (requires autogestion)
 		political:
+			country name choice: multiple options
 			NSDAP purge #purging of all NSDAP symbols and low-tier members
 			nuremburg trials event chain #execution of NSDAP leadership
 			help republican spain
