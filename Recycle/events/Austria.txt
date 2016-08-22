@@ -11,7 +11,7 @@ country_event = {
 	picture = GFX_report_event_worker_protests
 
 	trigger = {
-		GWR = { has_government = communism }
+		GER = { has_government = communism }
 		NOT = { has_country_flag = austria.1_fired }
 		OR = {
 			tag = AUS
@@ -39,7 +39,7 @@ country_event = {
 				is_puppet = yes
 			}
 		}
-		GWR = { country_event = { id = germany.4 days = 1 } }
+		GER = { country_event = { id = germany.4 days = 1 } }
 	}
 	option = { # Become Puppet state
 		name = austria.1.b
@@ -49,7 +49,7 @@ country_event = {
 				tag = AUS
 			}
 		}
-		GWR = { country_event = { id = germany.129 days = 1 } }
+		GER = { country_event = { id = germany.129 days = 1 } }
 	}
 	option = { # Stay as own communist state
 		name = austria.1.c
