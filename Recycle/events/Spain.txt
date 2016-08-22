@@ -481,7 +481,7 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		GWR = {
+		GER = {
 			add_to_faction = ROOT
 			ROOT = {
 				add_ai_strategy = {
@@ -500,7 +500,7 @@ country_event = {
 			factor = 10
 		}
 		effect_tooltip = {
-			GWR = {
+			GER = {
 				create_wargoal = {
 					type = puppet_wargoal_focus
 					target = ROOT
