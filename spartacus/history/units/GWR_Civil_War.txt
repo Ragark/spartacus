@@ -1,0 +1,147 @@
+﻿division_template = {
+	name = "Red Worker's Militia"			
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "I Red Worker's Militia"
+		location = 6521  # Berlin
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "II Red Worker's Militia"
+		location = 6521  # Berlin
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "III Red Worker's Militia"
+		location = 6521  # Berlin
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "IV Red Worker's Militia"
+		location = 6521  # Berlin
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "V Red Worker's Militia"
+		location = 6521  # Berlin
+		division_template = "Red Worker's Militia"
+	}
+
+	division = {
+		name = "VI Red Worker's Militia"
+		location = 514  # Dresden
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "VII Red Worker's Militia"
+		location = 514  # Dresden
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "VIII Red Worker's Militia"
+		location = 514  # Dresden
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "IX Red Worker's Militia"
+		location = 321  # Rostock
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "X Red Worker's Militia"
+		location = 321  # Rostock
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XI Red Worker's Militia"
+		location = 6469  # Essen
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XII Red Worker's Militia"
+		location = 6469  # Essen
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XIII Red Worker's Militia"
+		location = 6469  # Essen
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XIV Red Worker's Militia"
+		location = 6469  # Essen
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XV Red Worker's Militia"
+		location = 6469  # Essen
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XVI Red Worker's Militia"
+		location = 6488  # Frankfurt
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XVII Red Worker's Militia"
+		location = 6488  # Frankfurt
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XVIII Red Worker's Militia"
+		location = 6488  # Frankfurt
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XIX Red Worker's Militia"
+		location = 6488  # Frankfurt
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XX Red Worker's Militia"
+		location = 6488  # Frankfurt
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XXI Red Worker's Militia"
+		location = 9347  # Hamburg
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XXII Red Worker's Militia"
+		location = 9347  # Hamburg
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XXIII Red Worker's Militia"
+		location = 9347  # Hamburg
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XXIV Red Worker's Militia"
+		location = 3326  # Bremen
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XXV Red Worker's Militia"
+		location = 3326  # Bremen
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XXVI Red Worker's Militia"
+		location = 6377  # Hannover
+		division_template = "Red Worker's Militia"
+	}
+	division = {
+		name = "XXVII Red Worker's Militia"
+		location = 6377  # Hannover
+		division_template = "Red Worker's Militia"
+	}
+}

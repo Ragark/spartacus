@@ -1,0 +1,358 @@
+###################
+#Communist Germany#
+###################
+
+add_namespace = comgermany
+
+#KDP reorganzing
+country_event = {
+	id = comgermany.1
+	title = comgermany.1.t
+	desc = comgermany.1.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_government = communism }
+		tag = GER
+	}
+	
+	# Seek government support
+	option = {
+		name = comgermany.1.a
+		trigger = {
+			OR = {
+				NOT = { tag = CHI }
+				AND = {
+					NOT = { country_exists = PRC }
+					tag = CHI
+				}			
+			}
+		}
+		custom_effect_tooltip = comgermany.1.a.tt
+		clr_country_flag = communism_popular_movement
+		set_country_flag = communism_political_movement
+	}
+
+	# Seek popular support
+	option = {
+		name = comgermany.1.b
+		custom_effect_tooltip = comgermany.1.b.tt
+		clr_country_flag = communism_political_movement
+		clr_country_flag = communism_government_support
+		set_country_flag = communism_popular_movement
+	}
+}
+
+# KDP Sympathies in Government
+country_event = {
+	id = comgermany.2
+	title = comgermany.2.t
+	desc = comgermany.2.d
+	picture = GFX_report_event_worker_protests
+
+	trigger = {
+		has_idea_with_trait = communist_revolutionary
+		tag = GER
+		NOT = { has_government = communism }
+		NOT = { has_country_flag = communism_government_support }
+	}
+	
+	mean_time_to_happen = {
+		days = 500
+		modifier = {
+			factor = 0.5
+			has_country_flag = communism_political_movement
+		}
+	}
+	
+	option = {
+		name = comgermany.2.a
+		custom_effect_tooltip = comgermany.2.a.tt
+		clr_country_flag = communism_political_movement
+		set_country_flag = communism_government_support
+	}
+}
+
+#KDP Coup
+country_event = {
+	id = comgermany.3
+	title = germany.3.t
+	desc = germany.3.d
+	picture = GFX_report_event_gathering_protest
+	
+	trigger = {
+		has_idea_with_trait = communist_revolutionary
+		NOT = { has_government = communism }
+		has_country_flag = communism_government_support
+		communism > 0.4
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 100
+		modifier = {
+			factor = 0.5
+			communism > 0.5
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = communist_revolutionaries }
+	}
+	
+	option = {
+		name = comgermany.3.a
+		GWR = { annex_country = { target = GER transfer_troops = yes } country_event = { id = russia.2004 } }
+        every_state = { limit = { is_core_of = GER } GWR = { add_state_core = PREV } }
+        every_state = { limit = { is_claimed_by = GER } GWR = { add_state_claim = PREV } }
+        every_state = { limit = { is_core_of = GER } remove_core_of = GER }
+        every_state = { limit = { is_claimed_by = GER NOT = { is_core_of = GER } } remove_claim_by = GER }
+        GWR = { change_tag_from = GER }
+        }
+		add_timed_idea = { idea = reign_of_terror days = 730 }
+	}
+}
+#peoples movement
+country_event = {
+	id = comgermany.4
+	title = comgermany.4.t
+	desc = comgermany.4.d
+	picture = GFX_report_event_gathering_protest
+	
+	trigger = {
+		has_idea_with_trait = communist_revolutionary
+		NOT = { has_government = communism }
+		communism > 0.2
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 365
+		modifier = {
+			factor = 0.5
+			has_country_flag = communism_popular_movement
+		}
+	}
+	
+	option = {
+		name = comgermany.4.a
+		add_popularity = {
+			ideology = communism
+			popularity = 0.15
+		}
+		add_national_unity = -0.02
+	}
+}
+#Soldier join partisans
+country_event = {
+	id = comgermany.5
+	title = comgermany.5.t
+	desc = comgermany.5.d
+	picture = GFX_report_event_desertion_poster
+	
+	trigger = {
+		has_idea_with_trait = communist_revolutionary
+		NOT = { has_government = communism }
+		communism > 0.3
+		NOT = { has_idea = communist_partisans_recruiting }
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 365
+		modifier = {
+			factor = 0.5
+			has_country_flag = communism_popular_movement
+		}
+	}
+	
+	option = {
+		name = comgermany.5.a
+		add_popularity = {
+			ideology = communism
+			popularity = 0.15
+		}
+		add_ideas = communist_partisans_recruiting
+	}
+}
+#Civil war 
+country_event = {
+	id = comgermany.6
+	title = comgermany.6.t
+	desc = comgermany.6.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_idea_with_trait = communist_revolutionary
+		NOT = { has_global_flag = gcw_over }
+		NOT = { has_government = communism }
+		communism > 0.4
+		tag = GER
+		has_defensive_war = no
+	}
+
+	mean_time_to_happen = {
+		days = 365
+		modifier = {
+			factor = 0.75
+			has_country_flag = communism_popular_movement
+		}
+	}
+	
+	option = { # Play fascist
+		name = comgermany.6.a
+		hidden_effect = {
+			set_capital = 5
+			GER = { 
+				remove_state_core = 51 
+				remove_state_core = 55  
+				remove_state_core = 58 
+				remove_state_core = 59 
+				remove_state_core = 60 
+				remove_state_core = 61 
+				remove_state_core = 64 
+				remove_state_core = 65 
+			}
+			GWR = { 
+				add_state_core = 51 
+				add_state_core = 55  
+				add_state_core = 58 
+				add_state_core = 59 
+				add_state_core = 60 
+				add_state_core = 61 
+				add_state_core = 64 
+				add_state_core = 65 
+			}
+			GWR = { 
+				set_state_owner = 51 
+				set_state_owner = 55  
+				set_state_owner = 58 
+				set_state_owner = 59 
+				set_state_owner = 60 
+				set_state_owner = 61 
+				set_state_owner = 64 
+				set_state_owner = 65 
+			}
+			GWR = { 
+				set_state_controller	 = 51 
+				set_state_controller	 = 55  
+				set_state_controller	 = 58 
+				set_state_controller	 = 59 
+				set_state_controller	 = 60 
+				set_state_controller	 = 61 
+				set_state_controller	 = 64 
+				set_state_controller	 = 65 
+			}
+			random_country = {
+				limit = {
+					tag = GWR
+				}
+				load_oob = "GWR_Civil_War"
+				set_equipment_fraction = 0.3
+				set_national_unity = 0.9
+				declare_war_on = { target = GER type = annex_country }
+				#country_event = { id = spain.3 days = 1 }
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.35
+				}
+			}
+			news_event = { hours = 6 id = news.63 }
+			set_global_flag = german_civil_war
+			
+			load_oob = "GER_Civil_War"
+			set_equipment_fraction = 0.3
+			set_national_unity = 0.9
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = 1
+			}
+
+			#country_event = { id = spain.2 days = 7 }
+		}
+		custom_effect_tooltip = fascist_chosen
+	}
+	option = { # Play Communist
+		name = comgermany.6.b
+		hidden_effect = {
+			set_capital = 5
+			GER = { 
+				remove_state_core = 51 
+				remove_state_core = 55  
+				remove_state_core = 58 
+				remove_state_core = 59 
+				remove_state_core = 60 
+				remove_state_core = 61 
+				remove_state_core = 64 
+				remove_state_core = 65 
+			}
+			GWR = { 
+				add_state_core = 51 
+				add_state_core = 55  
+				add_state_core = 58 
+				add_state_core = 59 
+				add_state_core = 60 
+				add_state_core = 61 
+				add_state_core = 64 
+				add_state_core = 65 
+			}
+			GWR = { 
+				set_state_owner = 51 
+				set_state_owner = 55  
+				set_state_owner = 58 
+				set_state_owner = 59 
+				set_state_owner = 60 
+				set_state_owner = 61 
+				set_state_owner = 64 
+				set_state_owner = 65 
+			}
+			GWR = { 
+				set_state_controller	 = 51 
+				set_state_controller	 = 55  
+				set_state_controller	 = 58 
+				set_state_controller	 = 59 
+				set_state_controller	 = 60 
+				set_state_controller	 = 61 
+				set_state_controller	 = 64 
+				set_state_controller	 = 65 
+			}
+			GWR = { change_tag_from = GER }
+			declare_war_on = { target = GER type = annex_country }
+			news_event = { hours = 6 id = news.63 }
+			set_global_flag = german_civil_war
+			random_country = {
+				limit = {
+					tag = GWR
+				}
+				load_oob = "GWR_Civil_War"
+				set_equipment_fraction = 0.3
+				set_national_unity = 0.9
+				declare_war_on = { target = GER type = annex_country }
+				#country_event = { id = spain.3 days = 1 }
+				add_popularity = {
+					ideology = communism
+					popularity = 1
+				}
+			}
+			news_event = { hours = 6 id = news.63 }
+			set_global_flag = german_civil_war
+			
+			load_oob = "GER_Civil_War"
+			set_equipment_fraction = 0.3
+			set_national_unity = 0.9
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = 1
+			}
+			
+			#country_event = { id = spain.3 days = 7 }
+		}
+		custom_effect_tooltip = communist_chosen
+	}
+}
