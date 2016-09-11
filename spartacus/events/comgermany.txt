@@ -4,6 +4,9 @@
 
 add_namespace = comgermany
 
+###################
+#Revolution events#
+###################
 #KDP reorganzing
 country_event = {
 	id = comgermany.1
@@ -356,3 +359,81 @@ country_event = {
 		custom_effect_tooltip = communist_chosen
 	}
 }
+#Spanish republicans inspire german socialist
+country_event = {
+	id = comgermany.7
+	title = comgermany.7.t
+	desc = comgermany.7.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_idea_with_trait = communist_revolutionary
+		NOT = { has_government = communism }
+		tag = GER
+		has_global_flag = spanish_civil_war
+		random_country = {
+			limit = {
+				tag = SPR
+			}
+			has_war_with_amount = 55
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+		modifier = {
+			factor = 0.75
+			has_country_flag = communism_popular_movement
+		}
+	}
+	
+	add_popularity = {
+				ideology = communism
+				popularity = .05
+			}
+}
+
+#################
+#Post-Revolution#
+#################
+#nuremburg trials
+country_event = {
+	id = comgermany.8
+	title = comgermany.8.t
+	desc = comgermany.8.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = GWR
+		has_war = NO
+		}
+	#kill them all
+	option = {
+		name = comgermany.8.a
+		add_popularity = {
+				ideology = communism
+				popularity = .1
+			}
+		add_national_unity = .05
+		add_ideas = GWR_nazis_purged
+	}
+		
+	#keep the smart and useful ones
+	option = {
+		name = comgermany.8.b
+		add_popularity = {
+				ideology = fascism
+				popularity = .1
+			}
+	}	
+}
+	
+	
+	
+	

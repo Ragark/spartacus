@@ -49,7 +49,7 @@ german:
  			soviet/council federation, workers' parliament or factory council/union federation choice #FCF only if syndicalism focus
  			level of political freedoms
 	events:
-		germany inspired by republican spain(commie party popularity gain)
+		#needs testing# germany inspired by republican spain(commie party popularity gain)
 		invite Thalmann back #if Thalmann leaves due to 4thint
 		thalmann escapes prison
 		build memorial to rosa and liebknecht

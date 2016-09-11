@@ -1,0 +1,28 @@
+﻿l_english:
+
+###########
+#countries#
+###########
+  GWR_fascism:0 "German Reich"
+ GWR_fascism_DEF:0 "The German Reich"
+ GWR_democratic:0 "Second German Republic"
+ GWR_democratic_DEF:0 "The Second German Republic"
+ GWR_neutrality:0 "Germany"
+ GWR_neutrality_DEF:0 "Germany"
+ GWR_communism:0 "German Worker's Republic"
+ GWR_communism_DEF:0 "The German Worker's Republic"
+ GWR_fascism_ADJ:0 "German"
+ GWR_democratic_ADJ:0 "German"
+ GWR_neutrality_ADJ:0 "German"
+ GWR_communism_ADJ:0 "German"
+ 
+ ##########
+ #factions#
+ ##########
+ Spartacus_League:0 "Spartacus League"
+ 
+ #######
+ #ideas#
+ #######
+ unsure_foreign_policy:0 "Unsure Foreign Policy"
+ unsure_foreign_policy_desc:0 "Where do we go from here?"

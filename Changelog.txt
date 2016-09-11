@@ -1,0 +1,10 @@
+V0.1
+German civil war and coup added
+GWR tree mock up started
+USA radical tree set up
+
+V0.1.1 Sep.11 2016
+GER commies inspired by SPR event added
+GWR Nuremburg trial nf started
+Nuremburg trial event started
+mod-localizations centralized
