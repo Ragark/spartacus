@@ -374,6 +374,21 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = answer_for_their_crimes
+		icon = GFX_goal_generic_political_pressure
+		available = { has_war = NO }
+		x = 8
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = .4
+		}
+		completion_reward = {
+			country_event = { id = comgermany.8 }
+		}
+	}
+	
 	
 	
 	
