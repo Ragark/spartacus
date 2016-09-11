@@ -6,52 +6,69 @@ german:
 			expand PC/C/C
 			autobahn
 			public work programs
+			international industrial support
 			industrial combination/rationalize production
-			cybernetic planning or traditional/Stalinist planning (increased IC vs dissent from bureaucrats)
-			autogestion in firms (increased IC and lower dissent but reduced manpower)
-			five Year Plans
-			international industrial support 
+ 			cybernetic planning or traditional/Stalinist planning (increased IC vs dissent from bureaucrats)
+ 			autogestion in firms (increased IC and lower dissent but reduced manpower)
+ 			five Year Plans
 		military:
 			rote kampferfrontbund mobilization
 			union mobilization #civilwar only
 			expand navy to compete with UK/USA
 			factory militias (requires autogestion)
-			haven for soviet advisors from purge
-		political:
+ 			haven for soviet advisors from purge
+			political:
 			country name choice: multiple options
 			NSDAP purge #purging of all NSDAP symbols and low-tier members
 			nuremburg trials event chain #execution of NSDAP leadership
 			help republican spain
 			invite spain to faction
 			regain internationalism focus
-			plebscite austria
+			plebscite austria (austrian civil war)
 			plebscite sudetenland 
-			make KDP/SAPD power concrete
+			pressure USSR over status of volga germans and baltic germans 
+			make KDP power concrete
 				cozy with ussr = cheka
 			fight/ally/peace ussr
+			coup poland
 			fight fascist italy
 				free ethiopia/pan-africa
 				free libya/arab republic
-			remilitarize rhineland
-			pressure USSR over status of volga germans and baltic germans 
+			remilitarize rhineland(french more aggressive if done by commies)
+			different gov types, bonuses/minuses
 			coup or invade france
-			coup poland
 			invade switzerland
+			romanian/middle east/baku oil 
 			regain danzig
+			creating "Central european council republic" (poland/hungary/czech)
 			syndicalism internal national focus chain #If Comintern, Stalin may intervene...
 			coup or invade denmark/norway/sweden (or fund civil wars?)
-			merge KPD, SAPD and SPD
-			one party state or multiparty elections choice
-			KDP or SAPD socialist government 
-			soviet/council federation, workers' parliament or factory council/union federation choice #FCF only if syndicalism focus
-			level of political freedoms
+ 			merge KPD, SAPD and SPD
+ 			one party state or multiparty elections choice
+ 			KDP or SAPD socialist government 
+ 			soviet/council federation, workers' parliament or factory council/union federation choice #FCF only if syndicalism focus
+ 			level of political freedoms
 	events:
-		germany inspired by republican spain
+		germany inspired by republican spain(commie party popularity gain)
 		invite Thalmann back #if Thalmann leaves due to 4thint
+		thalmann escapes prison
 		build memorial to rosa and liebknecht
-		nazi guerillas
+		thalmann escapes from prison
 		make Karl Kautsky honorary president #if SAPD 
-		luxembourg joins germany if communist or puppet.
+ 		luxembourg joins germany if communist or puppet.
+		nazi guerillas
+		KDP rebuilding
+		invite trotsky
+		thallman, or toller for leader
+		SDP takes over instead of KDP
+		kautsky flavor(shot if stalinist state)
+		invite bukharin (dies in 38)
+		rosa is still alive(rare)
+		KDP dies out if not <30% if invasion of poland happens
+		bavarian secessionist
+		big enough KDP causes anti-war sentiment
+
+		
 			
 Other countries events:
 
@@ -59,20 +76,25 @@ Other countries events:
 		Debuffs for countries at war with communist states
 			~30% communist population=general strikes (lowered number of factories/resources available)
 			~50% communist population=lowered national unity
+			rename worldnews to communist theme
+			fascist growth as commies grow
+			new rome/allies alliance
 	Specific:
 		us 
 			southerners for the CPUSA
 			ending of the great depression
 			minutemen divisions #Has much higher chance of happening if german puppet
 			french protection laws in louisiana
-			woody guthrie events	
+			woody guthrie events
 			CIO purge events 
-			CIO and IWW merge and become government #if puppeted by syndicalist germany
-			missouri and great lakes workers' militias 
-			IWW rising #if germany has syndicalism focus
+ 			CIO and IWW merge and become government #if puppeted by syndicalist germany
+ 			missouri and great lakes workers' militias 
+ 			IWW rising #if germany has syndicalism focus
+	
 		ussr
+			send arms/supplies to gain influence in new communist states
 			defections to germany
-			lend-lease if allied with usa
+ 			lend-lease if allied with usa
 		france 
 			france react to coup or civil war
 			communist defecting to germany
@@ -80,16 +102,23 @@ Other countries events:
 			uk reaction to red france
 			crack down on trade unions
 			orwell writes book condemning UK and US as totalitarian
+			volunteers to spain(increase democartic popularity in spain)
 		italy 
 			italian reaction to plebscite
-			south trent demand plebscite			
+			south trent demand plebscite
+			doubling down in spanish civil war
+			expanded new rome faction
+			
 		japan
 			power struggle between army and navy
 			
 		poland
 			growth in fascism if surrounded by communist
+		spain
+			franco is neutral ideology, falangist can coup to make aggressive fascist
 
 		minors
+			rallying independence in ethiopia
 			ethopian SR developing pan-africanism and socialism
 			libyan SR developing pan-arabism and socialism
 			Iceland/greenland jumping to UK/USA/canada if denmark goes communist
@@ -106,7 +135,9 @@ Other countries NFs:
 		us 
 			minor changes to fit fight against germany
 			IWW mobilization #civil war or german puppet
-			ending of segregation
+			ending of segregation(communist/democrats have different options)
+			rebuilding us tree
+			form north american/new world intertionalist union
 			
 		ussr 
 			diplomatic changes towards germany
@@ -118,8 +149,7 @@ Other countries NFs:
 			nf tree if go communist
 			propose france-german union if communist
 			far-right reaction to communist germany
-			focuses on french-ish belgium, luxembourg, switzerland.
-			
+ 			focuses on french-ish belgium, luxembourg, switzerland.
 		uk 
 			changes toward anti-communism
 			reaction to pan-africa, pan-arab
